@@ -35,10 +35,10 @@ export default function Navbar() {
 
                 {/* Right side */}
                 <div className="flex items-center gap-6 text-sm font-medium">
-                    <Link href="/signin" className="hover:text-lime-300">
+                    <Link href="/login" className="hover:text-lime-300">
                         Sign In
                     </Link>
-                    <Link href="/join" className="hover:text-lime-300">
+                    <Link href="/register" className="hover:text-lime-300">
                         Join Us
                     </Link>
                     <button aria-label="Cart">
