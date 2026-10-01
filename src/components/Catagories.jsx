@@ -45,11 +45,11 @@ export default function Categories() {
 
                 {/* Category pills */}
                 <div className="mx-auto mt-10 flex max-w-[1090px] flex-wrap items-center justify-center gap-3">
-                    {categories.map((cat) => {
+                    {categories.map((cat, index) => {
                         const isActive = active === cat;
                         return (
                             <button
-                                key={cat}
+                                key={`${cat}-${index}`}
                                 type="button"
                                 onClick={() => setActive(cat)}
                                 className={`rounded-full px-5 py-2.5 text-sm transition ${isActive
