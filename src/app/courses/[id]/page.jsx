@@ -24,6 +24,13 @@ const defaultKeyPoints = [
 ];
 
 const tabs = ["About", "Lessons", "Reviews"];
+const defaultLessonIntro =
+    "Immerse yourself in the course content as we break down each module into comprehensive lessons, providing practical insights and hands-on experiences.";
+
+const defaultLessonContent =
+    "Engage with each lesson through captivating video content, detailed textual explanations, and interactive elements. Download resources, complete assignments, and test your understanding with quizzes.";
+const defaultProgressText =
+    "Witness your growth as you complete lessons, with an intuitive progress tracking feature guiding you through your learning journey.";
 
 const includes = [
     {
@@ -78,6 +85,7 @@ export default function CourseDetails({ params }) {
     const totalHours = course.totalHours ?? 24;
     const keyPoints = Array.isArray(course.keyPoints) ? course.keyPoints : defaultKeyPoints;
     const sneakPeek = Array.isArray(course.sneakPeek) ? course.sneakPeek : [];
+    const modules = Array.isArray(course.modules) ? course.modules : [];
     const reviewsList = Array.isArray(course.reviewsList) ? course.reviewsList : [];
     const description = Array.isArray(course.description)
         ? course.description
@@ -259,58 +267,185 @@ export default function CourseDetails({ params }) {
                             </div>
                         )}
 
+
                         {/* ---- Lessons ---- */}
                         {activeTab === "Lessons" && (
-                            <ul className="mt-8 divide-y divide-gray-200 rounded-2xl border border-gray-200">
-                                {lessons.map((lesson, i) => (
-                                    <li key={i} className="flex items-center justify-between gap-4 px-5 py-4 text-sm">
-                                        <span className="flex gap-4 text-gray-800">
-                                            <span className="text-gray-400">
-                                                {String(i + 1).padStart(2, "0")}
-                                            </span>
-                                            {lesson.title}
-                                        </span>
-                                        <span className="shrink-0 text-[#0B2FE0]">{lesson.duration}</span>
-                                    </li>
-                                ))}
-                            </ul>
+                            <div className="mt-8">
+                                <h2 className="text-lg font-semibold text-black">Explore the Modules</h2>
+                                <p className="mt-3 text-sm leading-6 text-gray-600">
+                                    {course.lessonIntro ?? defaultLessonIntro}
+                                </p>
+
+                                <h2 className="mt-8 text-lg font-semibold text-black">Lesson List</h2>
+                                <ul className="mt-4 space-y-4">
+                                    {modules.length > 0 ? (
+                                        <ul className="mt-4 space-y-4">
+                                            {modules.map((m, i) => (
+                                                <li key={i} className="flex items-start gap-4">
+                                                    <span className="flex h-[54px] w-[52px] shrink-0 items-center justify-center rounded-2xl bg-[#C8FF00]">
+                                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="#111">
+                                                            <path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h9A1.5 1.5 0 0 1 15 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 3 17.5v-11Z" />
+                                                            <path d="m16.5 10 4.5-3v10l-4.5-3v-4Z" />
+                                                        </svg>
+                                                    </span>
+                                                    <div>
+                                                        <p className="text-sm font-medium text-black">{m.title}</p>
+                                                        <p className="mt-1 text-sm leading-6 text-gray-600">{m.summary}</p>
+                                                    </div>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    ) : (
+                                        <p className="mt-4 text-sm text-gray-500">No modules available.</p>
+                                    )}
+                                </ul>
+
+                                <h2 className="mt-8 text-lg font-semibold text-black">Lesson Content</h2>
+                                <p className="mt-3 text-sm leading-6 text-gray-600">
+                                    {course.lessonContent ?? defaultLessonContent}
+                                </p>
+
+                                <h2 className="mt-8 text-lg font-semibold text-black">Lesson Progress Tracking</h2>
+                                <p className="mt-3 text-sm leading-6 text-gray-600">
+                                    {course.progressText ?? defaultProgressText}
+                                </p>
+
+                                {(() => {
+                                    const progress = course.progress ?? 0;
+                                    return (
+                                        <div className="mt-5 rounded-2xl border border-gray-200 p-4">
+                                            <p className="text-xs text-gray-700">Learning Progress</p>
+                                            <p className="mt-1 text-3xl font-semibold text-black">{progress}%</p>
+                                            <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-gray-200">
+                                                <div
+                                                    className="h-full rounded-full bg-[#C8FF00]"
+                                                    style={{ width: `${progress}%` }}
+                                                />
+                                            </div>
+                                        </div>
+                                    );
+                                })()}
+
+                            </div>
                         )}
 
                         {/* ---- Reviews ---- */}
+                        {/* ---- Reviews ---- */}
                         {activeTab === "Reviews" && (
-                            <div className="mt-8 space-y-4">
-                                {reviews.length > 0 ? (
-                                    reviews.map((r) => (
-                                        <div key={r.id} className="rounded-2xl border border-gray-200 p-5">
-                                            <div className="flex items-center justify-between gap-3">
-                                                <div className="flex items-center gap-3">
-                                                    {r.avatar ? (
-                                                        <img
-                                                            src={r.avatar}
-                                                            alt={r.name}
-                                                            className="h-10 w-10 rounded-full object-cover"
-                                                        />
-                                                    ) : (
-                                                        <span className="h-10 w-10 rounded-full bg-gray-200" />
-                                                    )}
-                                                    <div>
-                                                        <p className="text-sm font-semibold text-black">{r.name}</p>
-                                                        <p className="text-xs text-gray-500">{r.role}</p>
-                                                    </div>
+                            <div className="mt-8">
+                                {/* Title and Description */}
+                                <h2 className="text-lg font-semibold text-black">What Learners Are Saying</h2>
+                                <p className="mt-3 text-sm leading-6 text-gray-600">
+                                    Discover what our learners have to say about their experience with &apos;{course.title}{course.titleSuffix ?? ": A Comprehensive Guide"}.&apos; Read reviews and ratings from individuals who have embarked on the transformative journey of mastering digital asset creation.
+                                </p>
+
+                                {/* Rating Breakdown Card */}
+                                <div className="mt-6 flex flex-col items-center gap-6 rounded-3xl border border-gray-200 p-6 sm:flex-row sm:p-8">
+                                    <div className="flex h-36 w-36 shrink-0 flex-col items-center justify-center rounded-2xl bg-[#C8FF00] p-4 text-center">
+                                        <span className="text-xs font-medium text-gray-800">Ratings</span>
+                                        <span className="text-4xl font-bold text-black">{course.rating ?? 4.7}</span>
+                                    </div>
+
+                                    <div className="w-full space-y-3">
+                                        {[
+                                            { stars: 5, percentage: "85%", count: 720 },
+                                            { stars: 4, percentage: "45%", count: 120 },
+                                            { stars: 3, percentage: "15%", count: 21 },
+                                            { stars: 2, percentage: "8%", count: 12 },
+                                            { stars: 1, percentage: "12%", count: 16 },
+                                        ].map((item) => (
+                                            <div key={item.stars} className="flex items-center gap-3 text-xs text-gray-500">
+                                                <div className="h-2.5 w-full overflow-hidden rounded-full bg-gray-100">
+                                                    <div
+                                                        className="h-full rounded-full bg-[#C8FF00]"
+                                                        style={{ width: item.percentage }}
+                                                    />
                                                 </div>
-                                                <div className="text-right text-xs text-gray-500">
-                                                    <p className="text-sm text-gray-800">
-                                                        {r.rating} <span className="text-yellow-400">★</span>
-                                                    </p>
-                                                    <p>{r.date}</p>
+                                                <div className="flex shrink-0 items-center gap-1 text-gray-700">
+                                                    {[...Array(5)].map((_, i) => (
+                                                        <svg
+                                                            key={i}
+                                                            width="14"
+                                                            height="14"
+                                                            viewBox="0 0 24 24"
+                                                            fill={i < item.stars ? "#3A3A4A" : "#D1D5DB"}
+                                                        >
+                                                            <path d="m12 2 3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z" />
+                                                        </svg>
+                                                    ))}
                                                 </div>
+                                                <span className="w-8 text-right font-medium text-gray-600">{item.count}</span>
                                             </div>
-                                            <p className="mt-3 text-sm leading-6 text-gray-600">{r.comment}</p>
-                                        </div>
-                                    ))
-                                ) : (
-                                    <p className="text-sm text-gray-500">No reviews yet.</p>
-                                )}
+                                        ))}
+                                    </div>
+                                </div>
+
+                                {/* Filter Buttons */}
+                                <h3 className="mt-8 text-base font-semibold text-black">Individual Reviews:</h3>
+                                <div className="mt-4 flex flex-wrap gap-3">
+                                    <button
+                                        type="button"
+                                        className="rounded-full bg-[#C8FF00] px-5 py-2 text-xs font-medium text-black"
+                                    >
+                                        All rating
+                                    </button>
+                                    {[5, 4, 3, 2, 1].map((star) => (
+                                        <button
+                                            key={star}
+                                            type="button"
+                                            className="flex items-center gap-1.5 rounded-full bg-[#F1F1F3] px-5 py-2 text-xs font-medium text-gray-700 hover:bg-gray-200"
+                                        >
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="#3A3A4A">
+                                                <path d="m12 2 3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z" />
+                                            </svg>
+                                            {star}
+                                        </button>
+                                    ))}
+                                </div>
+
+                                {/* Existing Reviews List */}
+                                <div className="mt-6 space-y-4">
+                                    {reviews.length > 0 ? (
+                                        reviews.map((r) => (
+                                            <div key={r.id} className="rounded-3xl border border-gray-200 p-6">
+                                                <div className="flex items-center justify-between gap-3">
+                                                    <div className="flex items-center gap-3">
+                                                        {r.avatar ? (
+                                                            <img
+                                                                src={r.avatar}
+                                                                alt={r.name}
+                                                                className="h-12 w-12 rounded-full object-cover"
+                                                            />
+                                                        ) : (
+                                                            <span className="h-12 w-12 rounded-full bg-gray-200" />
+                                                        )}
+                                                        <div>
+                                                            <p className="text-sm font-semibold text-black">{r.name}</p>
+                                                            <p className="text-xs text-gray-500">{r.role}</p>
+                                                        </div>
+                                                    </div>
+                                                    <span className="text-xs text-gray-400">{r.date ?? "a year ago"}</span>
+                                                </div>
+                                                <div className="mt-3 flex items-center gap-1">
+                                                    {[...Array(5)].map((_, i) => (
+                                                        <svg
+                                                            key={i}
+                                                            width="14"
+                                                            height="14"
+                                                            viewBox="0 0 24 24"
+                                                            fill={i < Math.floor(r.rating ?? 5) ? "#3A3A4A" : "#D1D5DB"}
+                                                        >
+                                                            <path d="m12 2 3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z" />
+                                                        </svg>
+                                                    ))}
+                                                </div>
+                                                <p className="mt-3 text-sm leading-6 text-gray-600">{r.comment}</p>
+                                            </div>
+                                        ))
+                                    ) : (
+                                        <p className="text-sm text-gray-500">No reviews yet.</p>
+                                    )}
+                                </div>
                             </div>
                         )}
                     </div>

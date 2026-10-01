@@ -9,7 +9,7 @@
             "name": "purepearl studio",
             "role": "Professional Creator",
             "slug": "purepearl-studio",
-            "avatar": "/T1.jpg"
+            "avatar": "/Z1.jpg"
         },
         "category": "UI/UX Design",
         "level": "Beginner",
@@ -129,7 +129,7 @@
                 "id": 1,
                 "name": "PurePearl Studio",
                 "role": "UI/UX Designer",
-                "avatar": "/images/reviewers/reviewer-1.png",
+                "avatar": "/D1.png",
                 "rating": 5,
                 "date": "3 days ago",
                 "comment": "The course was well structured and easy to follow. Every lesson built on the previous one, and the practical examples made the concepts stick."
@@ -138,7 +138,7 @@
                 "id": 2,
                 "name": "Albert Flores",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-2.png",
+                "avatar": "/D2.png",
                 "rating": 5,
                 "date": "1 week ago",
                 "comment": "Great content and clear explanations. I was able to apply what I learned to my own project right away."
@@ -147,7 +147,7 @@
                 "id": 3,
                 "name": "Cody Fisher",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-3.png",
+                "avatar": "/G2.png",
                 "rating": 4,
                 "date": "2 weeks ago",
                 "comment": "The instructor shares real-world tips that you will not find in most tutorials. Highly recommended for anyone starting out."
@@ -156,7 +156,7 @@
                 "id": 4,
                 "name": "Brooklyn Simmons",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-4.png",
+                "avatar": "/D3.png",
                 "rating": 5,
                 "date": "3 weeks ago",
                 "comment": "Very useful course. The pace is comfortable and the resources provided saved me a lot of time."
@@ -173,7 +173,7 @@
             "name": "purepearl studio",
             "role": "Professional Creator",
             "slug": "purepearl-studio",
-            "avatar": "/images/instructor.png"
+            "avatar": "/Z1.jpg"
         },
         "category": "Graphic Design",
         "level": "Intermediate",
@@ -204,17 +204,20 @@
             " As you progress through the course, you'll ascend to higher levels of expertise, delving into the nuances of design principles that drive impactful creations. Uncover the secrets behind effective visual communication, exploring color theory, typography, and layout strategies that elevate your digital assets to new heights. Engage in hands-on exercises that reinforce your understanding, allowing you to apply these principles in practical scenarios."
         ],
         "keyPoints": [
-            "Understand the core concepts",
-            "Apply techniques through hands-on projects",
-            "Follow industry best practices",
-            "Get feedback from a private community",
-            "Build a portfolio-ready result"
+            "Foundational Concepts",
+            "Design Principles Mastery",
+            "Advanced Techniques in Digital Creation",
+            "Project Showcase and Critique",
+            "Optimizing for Various Platforms",
+            "Digital Asset Management Best Practices",
+            "Monetization Strategies",
+            "Capstone Project: Building Your Portfolio "
         ],
         "sneakPeek": [
-            "/images/courses/build-digital-asset-peek-1.jpg",
-            "/images/courses/build-digital-asset-peek-2.jpg",
-            "/images/courses/build-digital-asset-peek-3.jpg",
-            "/images/courses/build-digital-asset-peek-4.jpg"
+            "/L0.jpg",
+            "/L2.jpg",
+            "/L3.jpg",
+            "/L4.jpg"
         ],
         "includes": [
             {
@@ -290,7 +293,7 @@
                 "id": 1,
                 "name": "PurePearl Studio",
                 "role": "UI/UX Designer",
-                "avatar": "/images/reviewers/reviewer-1.png",
+                "avatar": "/D1.png",
                 "rating": 5,
                 "date": "3 days ago",
                 "comment": "The course was well structured and easy to follow. Every lesson built on the previous one, and the practical examples made the concepts stick."
@@ -299,7 +302,7 @@
                 "id": 2,
                 "name": "Albert Flores",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-2.png",
+                "avatar": "/D2.png",
                 "rating": 5,
                 "date": "1 week ago",
                 "comment": "Great content and clear explanations. I was able to apply what I learned to my own project right away."
@@ -308,7 +311,7 @@
                 "id": 3,
                 "name": "Cody Fisher",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-3.png",
+                "avatar": "/G2.png",
                 "rating": 4,
                 "date": "2 weeks ago",
                 "comment": "The instructor shares real-world tips that you will not find in most tutorials. Highly recommended for anyone starting out."
@@ -317,7 +320,7 @@
                 "id": 4,
                 "name": "Brooklyn Simmons",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-4.png",
+                "avatar": "/D3.png",
                 "rating": 5,
                 "date": "3 weeks ago",
                 "comment": "Very useful course. The pace is comfortable and the resources provided saved me a lot of time."
@@ -334,7 +337,7 @@
             "name": "purepearl studio",
             "role": "Professional Creator",
             "slug": "purepearl-studio",
-            "avatar": "/images/instructor.png"
+            "avatar": "/Z1.jpg"
         },
         "category": "Data Science",
         "level": "Beginner",
@@ -450,7 +453,7 @@
                 "id": 1,
                 "name": "PurePearl Studio",
                 "role": "UI/UX Designer",
-                "avatar": "/images/reviewers/reviewer-1.png",
+                "avatar": "/D1.png",
                 "rating": 5,
                 "date": "3 days ago",
                 "comment": "The course was well structured and easy to follow. Every lesson built on the previous one, and the practical examples made the concepts stick."
@@ -459,7 +462,7 @@
                 "id": 2,
                 "name": "Albert Flores",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-2.png",
+                "avatar": "/D2.png",
                 "rating": 5,
                 "date": "1 week ago",
                 "comment": "Great content and clear explanations. I was able to apply what I learned to my own project right away."
@@ -468,7 +471,7 @@
                 "id": 3,
                 "name": "Cody Fisher",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-3.png",
+                "avatar": "/G2.png",
                 "rating": 4,
                 "date": "2 weeks ago",
                 "comment": "The instructor shares real-world tips that you will not find in most tutorials. Highly recommended for anyone starting out."
@@ -477,7 +480,7 @@
                 "id": 4,
                 "name": "Brooklyn Simmons",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-4.png",
+                "avatar": "/D3.png",
                 "rating": 5,
                 "date": "3 weeks ago",
                 "comment": "Very useful course. The pace is comfortable and the resources provided saved me a lot of time."
@@ -610,7 +613,7 @@
                 "id": 1,
                 "name": "PurePearl Studio",
                 "role": "UI/UX Designer",
-                "avatar": "/images/reviewers/reviewer-1.png",
+                "avatar": "/D1.png",
                 "rating": 5,
                 "date": "3 days ago",
                 "comment": "The course was well structured and easy to follow. Every lesson built on the previous one, and the practical examples made the concepts stick."
@@ -619,7 +622,7 @@
                 "id": 2,
                 "name": "Albert Flores",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-2.png",
+                "avatar": "/D2.png",
                 "rating": 5,
                 "date": "1 week ago",
                 "comment": "Great content and clear explanations. I was able to apply what I learned to my own project right away."
@@ -628,7 +631,7 @@
                 "id": 3,
                 "name": "Cody Fisher",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-3.png",
+                "avatar": "/G2.png",
                 "rating": 4,
                 "date": "2 weeks ago",
                 "comment": "The instructor shares real-world tips that you will not find in most tutorials. Highly recommended for anyone starting out."
@@ -637,7 +640,7 @@
                 "id": 4,
                 "name": "Brooklyn Simmons",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-4.png",
+                "avatar": "/D3.png",
                 "rating": 5,
                 "date": "3 weeks ago",
                 "comment": "Very useful course. The pace is comfortable and the resources provided saved me a lot of time."
@@ -770,7 +773,7 @@
                 "id": 1,
                 "name": "PurePearl Studio",
                 "role": "UI/UX Designer",
-                "avatar": "/images/reviewers/reviewer-1.png",
+                "avatar": "/D1.png",
                 "rating": 5,
                 "date": "3 days ago",
                 "comment": "The course was well structured and easy to follow. Every lesson built on the previous one, and the practical examples made the concepts stick."
@@ -779,7 +782,7 @@
                 "id": 2,
                 "name": "Albert Flores",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-2.png",
+                "avatar": "/D2.png",
                 "rating": 5,
                 "date": "1 week ago",
                 "comment": "Great content and clear explanations. I was able to apply what I learned to my own project right away."
@@ -788,7 +791,7 @@
                 "id": 3,
                 "name": "Cody Fisher",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-3.png",
+                "avatar": "/G2.png",
                 "rating": 4,
                 "date": "2 weeks ago",
                 "comment": "The instructor shares real-world tips that you will not find in most tutorials. Highly recommended for anyone starting out."
@@ -797,7 +800,7 @@
                 "id": 4,
                 "name": "Brooklyn Simmons",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-4.png",
+                "avatar": "/D3.png",
                 "rating": 5,
                 "date": "3 weeks ago",
                 "comment": "Very useful course. The pace is comfortable and the resources provided saved me a lot of time."
@@ -930,7 +933,7 @@
                 "id": 1,
                 "name": "PurePearl Studio",
                 "role": "UI/UX Designer",
-                "avatar": "/images/reviewers/reviewer-1.png",
+                "avatar": "/D1.png",
                 "rating": 5,
                 "date": "3 days ago",
                 "comment": "The course was well structured and easy to follow. Every lesson built on the previous one, and the practical examples made the concepts stick."
@@ -939,7 +942,7 @@
                 "id": 2,
                 "name": "Albert Flores",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-2.png",
+                "avatar": "/D2.png",
                 "rating": 5,
                 "date": "1 week ago",
                 "comment": "Great content and clear explanations. I was able to apply what I learned to my own project right away."
@@ -948,7 +951,7 @@
                 "id": 3,
                 "name": "Cody Fisher",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-3.png",
+                "avatar": "/G2.png",
                 "rating": 4,
                 "date": "2 weeks ago",
                 "comment": "The instructor shares real-world tips that you will not find in most tutorials. Highly recommended for anyone starting out."
@@ -957,7 +960,7 @@
                 "id": 4,
                 "name": "Brooklyn Simmons",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-4.png",
+                "avatar": "/D3.png",
                 "rating": 5,
                 "date": "3 weeks ago",
                 "comment": "Very useful course. The pace is comfortable and the resources provided saved me a lot of time."
@@ -1090,7 +1093,7 @@
                 "id": 1,
                 "name": "PurePearl Studio",
                 "role": "UI/UX Designer",
-                "avatar": "/images/reviewers/reviewer-1.png",
+                "avatar": "/D1.png",
                 "rating": 5,
                 "date": "3 days ago",
                 "comment": "The course was well structured and easy to follow. Every lesson built on the previous one, and the practical examples made the concepts stick."
@@ -1099,7 +1102,7 @@
                 "id": 2,
                 "name": "Albert Flores",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-2.png",
+                "avatar": "/D2.png",
                 "rating": 5,
                 "date": "1 week ago",
                 "comment": "Great content and clear explanations. I was able to apply what I learned to my own project right away."
@@ -1108,7 +1111,7 @@
                 "id": 3,
                 "name": "Cody Fisher",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-3.png",
+                "avatar": "/G2.png",
                 "rating": 4,
                 "date": "2 weeks ago",
                 "comment": "The instructor shares real-world tips that you will not find in most tutorials. Highly recommended for anyone starting out."
@@ -1117,7 +1120,7 @@
                 "id": 4,
                 "name": "Brooklyn Simmons",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-4.png",
+                "avatar": "/D3.png",
                 "rating": 5,
                 "date": "3 weeks ago",
                 "comment": "Very useful course. The pace is comfortable and the resources provided saved me a lot of time."
@@ -1250,7 +1253,7 @@
                 "id": 1,
                 "name": "PurePearl Studio",
                 "role": "UI/UX Designer",
-                "avatar": "/images/reviewers/reviewer-1.png",
+                "avatar": "/D1.png",
                 "rating": 5,
                 "date": "3 days ago",
                 "comment": "The course was well structured and easy to follow. Every lesson built on the previous one, and the practical examples made the concepts stick."
@@ -1259,7 +1262,7 @@
                 "id": 2,
                 "name": "Albert Flores",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-2.png",
+                "avatar": "/D2.png",
                 "rating": 5,
                 "date": "1 week ago",
                 "comment": "Great content and clear explanations. I was able to apply what I learned to my own project right away."
@@ -1268,7 +1271,7 @@
                 "id": 3,
                 "name": "Cody Fisher",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-3.png",
+                "avatar": "/G2.png",
                 "rating": 4,
                 "date": "2 weeks ago",
                 "comment": "The instructor shares real-world tips that you will not find in most tutorials. Highly recommended for anyone starting out."
@@ -1277,7 +1280,7 @@
                 "id": 4,
                 "name": "Brooklyn Simmons",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-4.png",
+                "avatar": "/D3.png",
                 "rating": 5,
                 "date": "3 weeks ago",
                 "comment": "Very useful course. The pace is comfortable and the resources provided saved me a lot of time."
@@ -1410,7 +1413,7 @@
                 "id": 1,
                 "name": "PurePearl Studio",
                 "role": "UI/UX Designer",
-                "avatar": "/images/reviewers/reviewer-1.png",
+                "avatar": "/D1.png",
                 "rating": 5,
                 "date": "3 days ago",
                 "comment": "The course was well structured and easy to follow. Every lesson built on the previous one, and the practical examples made the concepts stick."
@@ -1419,7 +1422,7 @@
                 "id": 2,
                 "name": "Albert Flores",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-2.png",
+                "avatar": "/D2.png",
                 "rating": 5,
                 "date": "1 week ago",
                 "comment": "Great content and clear explanations. I was able to apply what I learned to my own project right away."
@@ -1428,7 +1431,7 @@
                 "id": 3,
                 "name": "Cody Fisher",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-3.png",
+                "avatar": "/G2.png",
                 "rating": 4,
                 "date": "2 weeks ago",
                 "comment": "The instructor shares real-world tips that you will not find in most tutorials. Highly recommended for anyone starting out."
@@ -1437,7 +1440,7 @@
                 "id": 4,
                 "name": "Brooklyn Simmons",
                 "role": "UX/UI Designer",
-                "avatar": "/images/reviewers/reviewer-4.png",
+                "avatar": "/D3.png",
                 "rating": 5,
                 "date": "3 weeks ago",
                 "comment": "Very useful course. The pace is comfortable and the resources provided saved me a lot of time."

@@ -14,7 +14,7 @@ const shapes = [
     // right: white cylinder
     { src: '/cone.png', className: '-top-2 -right-8 w-[120px] sm:w-[170px]' },
     // bottom-right: lime spring
-    { src: '/Mask Group (2).png', className: '-bottom-10 right-4 w-[110px] sm:w-[150px]' },
+    { src: '/S1.png', className: '-bottom-10 right-4 w-[110px] sm:w-[150px]' },
 ];
 
 const CreatorBanner = () => {
