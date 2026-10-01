@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="relative overflow-hidden bg-grid">
+        <section className="relative overflow-hidden  bg-grid">
             {/* ===== Decorative 3D shapes ===== */}
             <Image
                 src="/Mask Group (2).png"

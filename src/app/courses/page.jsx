@@ -142,11 +142,10 @@ export default function CourseExplorer() {
         <section className="bg-white">
             {/* ===== Blue Header ===== */}
             <div
-                className="bg-[#0B2FE0] px-6 pb-14 pt-8"
+                className="bg-grid px-6 pb-14 pt-8"
                 style={{
-                    backgroundImage:
-                        "linear-gradient(rgba(255,255,255,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.12) 1px, transparent 1px)",
-                    backgroundSize: "100px 100px",
+                    backgroundImage: `linear-gradient(rgba(255,255,255,0.12) 1px, transparent 1px), linear-gradient(to right, rgba(255,255,255,0.12) 1px, transparent 1px)`,
+                    backgroundSize: "max(60px, 8.3vw) max(60px, 8.3vw)",
                 }}
             >
                 <h1 className="text-center text-3xl font-semibold text-white">

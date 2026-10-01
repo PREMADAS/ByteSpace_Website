@@ -115,7 +115,7 @@ export default function CourseDetails({ params }) {
         <section className="relative bg-white pb-20">
             {/* ===== Blue background + grid ===== */}
             <div
-                className="absolute inset-x-0 top-0 h-[560px] bg-[#0B2FE0] lg:h-[615px]"
+                className="absolute inset-x-0 top-0 h-[560px] bg-grid lg:h-[615px]"
                 style={{
                     backgroundImage:
                         "linear-gradient(rgba(255,255,255,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.12) 1px, transparent 1px)",

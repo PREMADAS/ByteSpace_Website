@@ -29,7 +29,7 @@ export default function CreatorProfilePage({ params }) {
         <main className="min-h-screen bg-white">
             {/* ===== Top Blue Grid Section ===== */}
             <section
-                className="relative bg-[#0B2FE0] px-6 py-12 text-white"
+                className="relative bg-grid px-6 py-12 text-white"
                 style={{
                     backgroundImage:
                         "linear-gradient(rgba(255,255,255,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.12) 1px, transparent 1px)",

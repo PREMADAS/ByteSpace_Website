@@ -1,15 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const creatorSlug = "alex-design";
+
 const links = [
     { label: "Home", href: "/" },
     { label: "Courses", href: "/courses" },
-    { label: "Creators", href: "/creators" },
+    { label: "Creators", href: `/creators/${creatorSlug}` },
 ];
 
 export default function Navbar() {
     return (
-        <header className="w-full bg-grid text-white" >
+        <header className="w-full bg-[#003BE2] bg-grid text-white" >
             <nav className="mx-auto flex h-[120px] max-w-[1440px] items-center justify-between px-6 md:px-16">
                 {/* Logo */}
                 <Link href="/">
