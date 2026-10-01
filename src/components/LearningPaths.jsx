@@ -7,7 +7,7 @@ const paths = [
     { label: "IT & Software", icon: "/V3.png" },
     { label: "Business", icon: "/V4.png" },
     { label: "Marketing", icon: "/V5.png" },
-    { label: "Photography", icon: "/vector (10).png" },
+    { label: "Photography", icon: "/V6.png" },
 ];
 
 export default function LearningPaths() {
