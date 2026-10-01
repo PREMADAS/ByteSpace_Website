@@ -85,7 +85,7 @@ export default function Hero() {
 
                 {/* Boy */}
                 <Image
-                    src="/image.png"
+                    src="/boy.png"
                     alt="Student learning online"
                     width={520}
                     height={560}
