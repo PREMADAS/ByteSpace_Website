@@ -71,7 +71,7 @@ export default function GrowthSection() {
 
                     <div className="flex justify-center md:justify-end">
                         <Image
-                            src="/B1.png"
+                            src="/image.png"
                             alt="Learn Figma course preview"
                             width={520}
                             height={520}
@@ -84,7 +84,7 @@ export default function GrowthSection() {
                 <div className="grid items-center gap-12 md:grid-cols-2">
                     <div className="order-2 flex justify-center md:order-1 md:justify-start">
                         <Image
-                            src="/B2.png"
+                            src="/Frame 12.png"
                             alt="Instructor dashboard preview"
                             width={520}
                             height={560}
