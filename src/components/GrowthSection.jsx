@@ -71,7 +71,7 @@ export default function GrowthSection() {
 
                     <div className="flex justify-center md:justify-end">
                         <Image
-                            src="/image.png"
+                            src="/Frame 11.png"
                             alt="Learn Figma course preview"
                             width={520}
                             height={520}
